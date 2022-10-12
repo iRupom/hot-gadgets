@@ -1,0 +1,52 @@
+.carousel-indicators .normal {
+	background-color: gray;
+}
+.carousel-indicators .active {
+	background-color: yellow;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+	background-color: grey;
+}
+
+.container {
+	margin-bottom: 100px;
+}
+
+.card {
+	border: none;
+	box-shadow: 5px 5px 10px gray;
+	border-radius: 10px;
+}
+
+.card-footer {
+	background: none;
+	border: none;
+	padding-bottom: none;
+}
+
+.underline-block {
+	width: 125px;
+	height: 10px;
+	background-color: yellow;
+}
+
+#perfume,
+#shoe {
+	border-radius: 15px 5px 30px 5px;
+}
+
+#cat {
+	border-radius: 5px 15px 5px 30px;
+}
+
+#back {
+	height: 100px;
+	background-color: black;
+	text-align: center;
+	color: wheat;
+}
+
+footer {
+	text-align: center;
+}

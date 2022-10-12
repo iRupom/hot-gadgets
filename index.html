@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- Navbar area -->
+  <div class="container-md sticky-top" id="home">
+    <nav class="navbar navbar-expand-lg bg-success">
+      <div class="container mb-md-0">
+        <!-- Main Logo -->
+        <div>
+          <a class="navbar-brand" href="#">
+            <img class="img-fluid w-75" src="./resources/logo.png" alt="logo">
+          </a>
+        </div>
+
+        <!-- rest of the item -->
+        <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light d-flex align-self-end" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#categories">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a href="#subscribe" class="nav-link text-light">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- main carousel -->
+
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active normal" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="normal" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="normal" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+              <h2>Mackbook Pro</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam incidunt laboriosam veritatis eaque tempora voluptates porro repellat temporibus. Cum ullam natus molestiae ab officia nisi veniam dolor laboriosam quos corporis!</p>
+              <button class="btn btn-dark">Buy Now <i class="bi bi-arrow-right-circle-fill"></i></button>
+            </div>
+            <div class="col-md-6">
+              <img src="./resources/banner-products/product-1.png" class="d-block img-fluid" alt="Mackbook Pro">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+              <h2>Google Mini</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, aspernatur numquam! Porro quam ea sapiente consectetur at doloribus vel animi.</p>
+              <button class="btn btn-dark">Buy Now <i class="bi bi-arrow-right-circle-fill"></i></button>
+            </div>
+            <div class="col-md-6">
+              <img src="./resources/banner-products/slider-1.png" class="d-block img-fluid" alt="Google Mini">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+              <h2>JBL Speaker</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorem corrupti explicabo eligendi impedit, cum, repellendus consequuntur pariatur iste unde tenetur amet excepturi nihil eaque. Ea voluptatum distinctio voluptatem exercitationem!</p>
+              <button class="btn btn-dark">Buy Now <i class="bi bi-arrow-right-circle-fill"></i></button>
+            </div>
+            <div class="col-md-6">
+              <img src="./resources/banner-products/slider-3.png" class="d-block img-fluid" alt="JBL Speaker">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- smartphone section -->
+  <div class="container" id="products">
+    <div class="d-flex justify-content-between mb-3">
+      <h3>Smartphone</h3>
+      <small class="text-warning">See All</small>
+    </div>
+
+    <!-- card group -->
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card py-4 text-center">
+          <div class="d-flex justify-content-center">
+            <img src="./resources/phone/phone-1.png" class="card-img-top w-75" alt="Redmi Note 8">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Redmi Note 8</h3>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci odio id et? Nulla inventore blanditiis dolores veritatis corrupti, nisi eius!</p>
+          </div>
+          <div class="card-footer">
+            <h3>$699</h3>
+            <button class="btn btn-dark">Buy Now <i class="bi bi-arrow-right-circle-fill"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card py-4 text-center">
+          <div class="d-flex justify-content-center">
+            <img src="./resources/phone/phone-2.png" class="card-img-top w-75" alt="iPhone 11 pro">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">iPhone 11 Pro</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eum amet delectus quos reiciendis blanditiis et recusandae dolorum ratione consequuntur?.</p>
+          </div>
+          <div class="card-footer">
+            <h3>$999</h3>
+            <button class="btn btn-dark">Buy Now <i class="bi bi-arrow-right-circle-fill"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card py-4 text-center">
+          <div class="d-flex justify-content-center">
+            <img src="./resources/phone/phone-3.png" class="card-img-top w-75" alt="Galaxy Note10+">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Galaxy Note10+</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nesciunt officia alias laboriosam eius quidem. Error amet molestiae officia vero?</p>
+          </div>
+          <div class="card-footer">
+            <h3>$799</h3>
+            <button class="btn btn-dark">Buy Now <i class="bi bi-arrow-right-circle-fill"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- laptop section -->
+  <div class="container" id="laptops">
+    <div class="d-flex justify-content-between mb-3">
+      <h3>Laptops</h3>
+      <small class="text-warning">See All</small>
+    </div>
+
+    <!-- card group -->
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card py-4 text-center">
+          <div class="d-flex justify-content-center">
+            <img src="./resources/laptop/product-1.png" class="card-img-top w-75" alt="Vivobook">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Vivobook</h3>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci odio id et? Nulla inventore blanditiis dolores veritatis corrupti, nisi eius!</p>
+          </div>
+          <div class="card-footer">
+            <h3>$1599</h3>
+            <button class="btn btn-dark">Buy Now <i class="bi bi-arrow-right-circle-fill"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card py-4 text-center">
+          <div class="d-flex justify-content-center">
+            <img src="./resources/laptop/product-2.png" class="card-img-top w-75" alt="Razer Blade 15">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Rezer Blader 15</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eum amet delectus quos reiciendis blanditiis et recusandae dolorum ratione consequuntur?.</p>
+          </div>
+          <div class="card-footer">
+            <h3>$2799</h3>
+            <button class="btn btn-dark">Buy Now <i class="bi bi-arrow-right-circle-fill"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card py-4 text-center">
+          <div class="d-flex justify-content-center">
+            <img src="./resources/laptop/product-3.png" class="card-img-top w-75" alt="Mi Notepro">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Mi Notepro</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nesciunt officia alias laboriosam eius quidem. Error amet molestiae officia vero?</p>
+          </div>
+          <div class="card-footer">
+            <h3>$999</h3>
+            <button class="btn btn-dark">Buy Now <i class="bi bi-arrow-right-circle-fill"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- categories -->
+  <div class="container" id="categories">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <h4>Categories</h4>
+      <div class="underline-block rounded mb-5"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 d-flex felx-column justify-content-center  align-items-center">
+        <div id="cat" class="card h-50 mb-3">
+          <img src="./resources/Categories/bag.png" class="card-img-top w-50 pt-4" alt="bag-image">
+          <div class="card-body">
+            <h5 class="card-title">Bag</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 d-flex flex-column justify-content-center">
+        <div id="perfume" class="card mb-3 d-flex align-items-center">
+          <img src="./resources/Categories/perfume.png" class="card-img-top w-50 pt-4" alt="perfume">
+          <div class="card-body">
+            <h5 class="card-title">Perfume</h5>
+          </div>
+        </div>
+        <div id="shoe" class="card mb-3 d-flex align-items-center">
+          <img src="./resources/Categories/shoe.png" class="card-img-top w-50 pt-4" alt="shoe">
+          <div class="card-body">
+            <h5 class="card-title">Shoe</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <img src="./resources/Categories/pale-order.png" alt="order" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <div class="container d-flex align-items-center justify-content-center" id="back">
+    <a href="#home" style="text-decoration: none;">
+      <div class="text-light">
+        Back to top
+      </div>
+    </a>
+  </div>
+
+  <div class="container d-flex align-items-center justify-content-center" id="subscribe">
+    <div>
+      <h4>Subscribe Now</h4>
+      <h6>Get updated on sales, specials and more</h6>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <button class="btn btn-danger btn-md">SUBMIT</button>
+    </div>
+  </div>
+
+  <footer>
+    <small>
+      ©2020. All Rights Reserved By Rakib
+    </small>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
